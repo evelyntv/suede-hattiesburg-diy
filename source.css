@@ -1,0 +1,36 @@
+:root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    --fuckpink: rgb(255, 0, 255);
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 1000px;
+    height: 1000px;
+    flex-direction: column;
+    color: white;
+}
+
+h1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--fuckpink);
+}
+
+.flyer {
+    max-width: 50%;
+}
+
