@@ -14,7 +14,7 @@ body {
     flex-direction: column;
     color: white;
     background-image: url("images/background-star.gif");
-    font-family: monospace;
+    font-family: "Georgia", "Times New Roman", serif;
 }
 
 .header {
@@ -39,7 +39,7 @@ body {
 }
 
 .content {
-    font-size: 2em;
+    font-size: 1.5em;
     width: 20em;
     padding: 1em;
     background: rgb(0,0,0);               /* fall back */
