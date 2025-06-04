@@ -15,6 +15,7 @@ body {
     color: white;
     background-image: url("images/background-star.gif");
     font-family: "Georgia", "Times New Roman", serif;
+    align-items: center;
 }
 
 .header {
@@ -23,13 +24,17 @@ body {
     flex-direction: column;
     align-items: center;
     color: var(--fuckpink);
+    width: 100%;
+}
+
+.header-image {
 }
 
 .main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1em;
+    width: 100%;
 }
 
 .main-gallery {
@@ -40,9 +45,22 @@ body {
 }
 
 .nav {
-    font-size: 2em;
-    padding: 1em;
+    font-size: 1.5em;
+
     list-style-type: none;
+    width: 100%;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav-li {
+    display: inline;
+    justify-content: space-evenly;
+    padding: .5em;
 }
 
 .nav-gallery {
@@ -64,8 +82,8 @@ body {
 
 .content {
     font-size: 1.5em;
-    width: 20em;
-    padding: 1em;
+    width: 50%;
+    padding: 1vw;
     background: rgb(0,0,0);               /* fall back */
     background: rgba(0, 0, 0, 0.5);
     justify-content: left;
